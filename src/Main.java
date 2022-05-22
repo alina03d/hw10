@@ -8,5 +8,8 @@ public class Main {
 
         System.out.println(book1.getTitle() + " " + book1.getYear() + " " + book1.getAuthor().getName() + " " + book1.getAuthor().getSurname());
         System.out.println(book2.getTitle() + " " + book2.getYear() + " " + book2.getAuthor().getName() + " " + book2.getAuthor().getSurname());
+
+        book1.setYear(1833);
+        System.out.println(book1.getTitle() + " " + book1.getYear() + " " + book1.getAuthor().getName() + " " + book1.getAuthor().getSurname());
     }
 }
