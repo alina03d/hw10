@@ -9,7 +9,23 @@ public class Main {
         System.out.println(book1.getTitle() + " " + book1.getYear() + " " + book1.getAuthor().getName() + " " + book1.getAuthor().getSurname());
         System.out.println(book2.getTitle() + " " + book2.getYear() + " " + book2.getAuthor().getName() + " " + book2.getAuthor().getSurname());
 
-        book1.setYear(1833);
-        System.out.println(book1.getTitle() + " " + book1.getYear() + " " + book1.getAuthor().getName() + " " + book1.getAuthor().getSurname());
+        System.out.println(author1.hashCode());
+        System.out.println(author2.hashCode());
+
+        System.out.println(author1.equals(author2));
+        System.out.println(author2.equals(author1));
+
+        System.out.println(author1);
+        System.out.println(author2);
+
+        System.out.println(book1.hashCode());
+        System.out.println(book2.hashCode());
+
+        System.out.println(book1.equals(book2));
+        System.out.println(book2.equals(book1));
+
+        System.out.println(book1);
+        System.out.println(book2);
+
     }
 }
